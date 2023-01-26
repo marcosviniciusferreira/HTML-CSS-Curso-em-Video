@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1{
+            
+        }
+
+        nav{
+            background-color: rgb(126, 126, 126);
+        padding: 3px;
+        box-shadow: 1px 2px 3px #00000085;
+
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white; padding: 10px;
+        margin: 10px;
+        box-shadow: 4px 4px 1px 0px #00000040;
+        border-radius: 0px 20px;
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(161, 159, 159);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;            
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id:="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id:="noticioas">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ipsam illum itaque explicabo expedita porro impedit repudiandae architecto, perspiciatis ea sed officia, aperiam numquam reprehenderit nisi, nam voluptatum voluptates minus?</p>
+
+                <aside>
+                    Artigo feito pelo tavo
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+    <p>desenvolvido pelo binny</p>
+    </footer>
+</body>
+</html>
