@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste alinhamento y</title>
+
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            background-color: purple;
+        }
+
+        section{
+            position: relative;
+            background-color: black;
+            height: 96vh;
+        }
+
+        article#normal{
+            position: absolute;
+            background: url(teste/sound-waves.png) center center no-repeat fixed;
+            background-size: 100%;
+            /* background-image: url('../../../Projetos-Estudo/songs.ly-header/Songs.ly/imagens/sound-waves.png');
+            background-size: 100%;
+            background-position: center center; */
+            height: 400px;
+            width: 400px;
+            
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+        article#normal:hover{
+            background: url(teste/sound-waves\ hover.png) center center no-repeat fixed;
+            background-size: 100%;
+        }
+
+        /* article#sombra{
+            display: none;
+            position: absolute;
+            background: url(teste/sound-waves.png) center center no-repeat fixed;
+            background-size: 100%;
+            height: 400px;
+            width: 400px;
+            
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+        article#sombra:hover{
+            display: block;
+        } */
+    </style>
+</head>
+
+<body>
+    <section id="container">
+        <a href="https://www.spotify.com/br/premium/?utm_source=br-pt_brand_contextual-desktop_text&utm_medium=paidsearch&utm_campaign=alwayson_latam_br_premiumbusiness_core_brand+contextual-desktop+text+exact+br-pt+google&gclid=Cj0KCQiAic6eBhCoARIsANlox851DPzvNNntwEUScCPO3xioNwQusRWFDx8UGK6XJk3hhHt1aShWsCkaApvMEALw_wcB&gclsrc=aw.ds" target="_blank">
+            <article id="normal">
+            </article>
+        </a>
+        <article id="sombra">
+        </article>
+    </section>    
+</body>
+</html>
